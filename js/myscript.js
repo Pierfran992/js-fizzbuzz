@@ -18,17 +18,23 @@ for (let i =1; i <= 100; i++){
 
         element.append("fizzbuzz");
 
+        element.classList.add("ms_color_fizz_buzz");
+
         console.log("fizzbuzz");
 
     } else if ( i % 3 == 0 ) { // se un numero è divisibile per 3 stampa fizz
 
         element.append("fizz");
 
+        element.classList.add("ms_color_fizz");
+
         console.log("fizz");
 
     } else if ( i % 5 == 0 ) { // se un numero è divisibile per 5 stanpa buzz
 
         element.append("buzz");
+
+        element.classList.add("ms_color_buzz");
 
         console.log("buzz");
 
